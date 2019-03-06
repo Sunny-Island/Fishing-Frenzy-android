@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background>
+    <Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="简单对话框"
+        android:onClick="Btn1_Onclick"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="确认对话框1" android:onClick="Btn2_Onclick"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="确认对话框2" android:onClick="Btn3_Onclick"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="输入框" android:onClick="Btn4_Onclick"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="单选框" android:onClick="Btn5_Onclick"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="多选框" android:onClick="Btn6_Onclick"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="列表框" android:onClick="Btn7_Onclick"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="图片框" android:onClick="Btn8_Onclick"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="进度条对话框1" android:onClick="Btn10_Onclick"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="进度条对话框2" android:onClick="Btn11_Onclick"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="自定义对话框" android:onClick="Btn9_Onclick"/>
+
+</LinearLayout>
